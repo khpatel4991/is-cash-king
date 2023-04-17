@@ -70,7 +70,7 @@ export default function App() {
   }, [housePrice, savings]);
 
   useEffect(() => {
-    const interest = amortizedHousePrice - housePrice - downRakam;
+    const interest = amortizedHousePrice - housePrice;
     const rentPaid = 12 * yearsToAccumulate * rent;
     setInterestMinusRent(interest - rentPaid);
   }, [amortizedHousePrice, housePrice, yearsToAccumulate, rent, downRakam]);
