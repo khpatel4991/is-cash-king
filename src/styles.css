@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+}
+
+.rin {
+  color: red;
+}
+
+.loan {
+  color: blue;
+}
+
+.cash {
+  color: green;
+}
